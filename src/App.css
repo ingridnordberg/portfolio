@@ -1,9 +1,75 @@
 #root {
-  max-width: 1280px;
+  max-width: 40em;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  
 }
 .card {
   padding: 2em;
+}
+
+.confetti--button {
+  padding: 15px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0e22a3;
+  background-color: #c2c9f3;
+  border: none;
+  border-radius: 30px;
+}
+
+.home--title {
+  margin-bottom: 3em;
+}
+
+.painting {
+  margin-bottom: 3em;
+}
+
+.painting--image {
+  width: 300px;
+  height: auto;
+}
+
+.painting--title {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.sidebar {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  height:100%;
+  width:200px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 1em;
+  font-family: Helvetica;
+}
+
+.sidebar-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-nav li a {
+  display: block;
+  color: #0e22a3;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.sidebar-nav li a:hover {
+  color: #7584e0;
+}
+
+.sidebar--title {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  transform: rotate(180deg);
 }
