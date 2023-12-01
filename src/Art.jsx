@@ -15,7 +15,7 @@ export default function Art() {
     
     return (
         <div>
-            <h1 className="painting--title">OIL PAINTINGS, 2023</h1>
+            <h1 className="painting--title">SELECTED PAINTINGS, 2023</h1>
             <section className="painting-list">
                 {paintings}
             </section>

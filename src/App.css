@@ -2,10 +2,29 @@
   max-width: 40em;
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   
 }
+
+.card--list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr)); /* Adjust column width as needed */
+  gap: 1.5em;
+}
+
 .card {
   padding: 2em;
+  margin: 1em;
+}
+
+.card--image {
+  max-width: 100%;
+}
+
+.card--title {
+  font-weight: bold;
 }
 
 .confetti--button {
@@ -18,8 +37,34 @@
   border-radius: 30px;
 }
 
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; /* Push the footer to the bottom */
+  flex-shrink: 0; /* Prevent footer from shrinking */
+  width: 100%;
+}
+
+.home--bio {
+  margin-bottom: 3em;
+}
+
+.home--experiences {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.home--linkedin {
+  text-align: center;
+  margin-bottom: 5em;
+}
+
 .home--title {
   margin-bottom: 3em;
+}
+
+.link {
+  color: #0e22a3
 }
 
 .painting {
@@ -42,6 +87,13 @@
   left: 1em;
   height:100%;
   width:200px;
+}
+
+.sidebar--img {
+  max-width: 100%;
+  height: auto;
+  width: 8em;
+  height: auto;
 }
 
 .sidebar-nav {

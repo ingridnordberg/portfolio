@@ -12,6 +12,10 @@ function App() {
         <div className="sidebar">
           
           <nav className="sidebar-nav">
+            <div>
+              <img src="/jug.png" alt="painted in Procreate on iPad, 2023" className="sidebar--img" />
+              
+            </div>
             <ul>
               <li>
                 <Link to="/">Home</Link>

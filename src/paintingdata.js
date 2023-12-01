@@ -1,22 +1,22 @@
 export default [
     {
         id: 1,
-        description: "Sargent - Master Study",
-        img: "sargent-1.JPG",
+        description: "Swedish Midsummer - Oil on canvas",
+        img: "midsommar.jpg",
     },
     {
         id: 2,
-        description: "Sargent - Master Study",
-        img: "sargent-2.JPG",
+        description: "Girl with the Pearl Earring - Vermeer Master Study - Oil on canvas",
+        img: "pearl.jpg",
     },
     {
         id: 3,
-        description: "Sargent - Master Study",
-        img: "sargent-3.JPG",
+        description: "Baseball Players - Pen on paper",
+        img: "baseball.JPG",
     },
     {
         id: 4,
-        description: "Still life",
-        img: "still-life.JPG",
+        description: "Baby - Procreate on iPad",
+        img: "baby.PNG",
     }
 ]
